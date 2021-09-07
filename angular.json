@@ -27,8 +27,16 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              {
+                "glob": "*.{eot,woff,woff2,ttf,svg}",
+                "input": "./node_modules/qia-browser-libraries",
+                "ignore": [
+                  "**/*.not-wanted.svg"
+                ],
+                "output": "./"
+              },
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.scss"
