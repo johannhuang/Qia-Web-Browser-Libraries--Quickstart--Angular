@@ -10,7 +10,6 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
-    "skipLibCheck": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
